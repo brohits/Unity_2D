@@ -1214,7 +1214,6 @@ GameObject:
   - component: {fileID: 1014622113}
   - component: {fileID: 1014622114}
   - component: {fileID: 1014622115}
-  - component: {fileID: 1014622116}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1350,32 +1349,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-<<<<<<< Updated upstream
   jumpSpeed: 6
   groundCheck: {fileID: 981846815}
   groundCheckRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-=======
---- !u!95 &1014622116
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014622110}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 25f9b87849ae11045ae4d7f9e3145486, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
->>>>>>> Stashed changes
